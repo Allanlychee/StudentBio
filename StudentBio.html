@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Bio</title>
+<style>
+/*Set Full Page Background Color, Font, Line Spacing, 
+Remove Margins and Padding*/
+body {
+	background-color:#efeee7;
+  	margin: 0;
+  	padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  	line-height:150%;
+     }
+/*Set Header Background Color*/
+header {
+	background-color:#333333;
+    }
+/*Set Student Bio Color, Font Size, 
+Change padding of header, Center Text, Remove Margin*/
+h1 {
+    color:#eee;
+    font-size:28px;
+    padding-top:22px;
+  	padding-bottom:22px;
+    text-align:center;
+	margin:0;
+    }
+
+.container {
+  	width: 1024px;
+    margin: 0 auto;
+    }
+
+h2 {
+	font-size:24px;
+    }
+/*Set Sections to Float Left*/
+#main-bio, #contact-info, #bio-image {
+  	float:left;
+    }
+/*Set space between paragraph and image; Set Image size*/
+#bio-image {
+    margin-right: 75px;
+  	width:200px;
+    height:200px;
+    }
+/*Make Bio and Contact fit on "One Line"*/
+#main-bio {
+	width:70%;
+    }
+#contact-info {
+    width:30%;
+    }
+/*Set link color*/
+a {
+  	color:#d21034;
+    }
+</style>
+</head>
+<body>
+    <header>
+	    <h1>Allan's Student Bio</h1>
+    </header>
+    <div class="container">
+        <section id="main-bio">
+	        <h2>Allan Ly</h2>
+	        <div id="bio-image">
+            <img src="file:///C:/Users/Allan/Desktop/allansface.jpg" alt="Allan's Face">
+	        </div>
+	        <p>This is a paragraph.This is a paragraph.This is a paragraph.
+                This is a paragraph.This is a paragraph.This is a paragraph.
+                This is a paragraph.This is a paragraph.This is a paragraph.
+                This is a paragraph.This is a paragraph.</p>
+        </section>
+	    <section id="contact-info">
+		<h2>Contact Info</h2>
+			<ul>
+			<li><b>Email: </b><a href="Allanvly@gmail.com">Allanvly@gmail.com</a></li>
+			<li><b>GitHub: </b><a href="#">Allanlychee</a></li>
+			<li><b>Portfolio: </b><a href="#">Coming Soon</a></li>
+			</ul>
+	    </section>
+    </div>
+</body>
+</html>
